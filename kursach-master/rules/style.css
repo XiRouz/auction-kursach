@@ -1,0 +1,117 @@
+#logo, #logo:hover{
+	text-decoration: none; 
+	color:#F70A0A; 
+	font-weight: bold; 
+	font-size: 40px;
+}
+
+#search{
+	border-top: 2px solid #696868;
+	background: #DAD8D8;
+}
+
+#search a{
+	margin-top: 6px;
+	text-decoration: none; 
+	color: #807D7D;	
+}
+
+#search a:hover{
+	color: #595858;
+}
+
+#leftblock{
+	border: 1px solid lightgrey;
+}
+
+#line{
+	background: orange;
+	border: none;
+	height: 2px;
+}
+
+.dontborderradius{
+	border-radius: 0 !important;
+}
+
+.footer{
+	color: white;
+	font-weight: bold;
+}
+
+.footer a{
+	color: lightgrey;
+}
+
+/*#regInfo{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	background: white;
+	z-index: 1;
+	padding: 20px;
+	box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.37);
+	opacity: 0;
+}*/
+
+#invalidLoginPassword{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	display: none;
+}
+
+.category ul a{
+	text-decoration: none;
+}
+
+.category ul{
+	font-size: 15px;
+}
+
+.category-head{
+	cursor: pointer;
+}
+
+.triangleClose{
+	transform: rotate(90deg);
+	transition-duration: 0.5s;
+}
+
+.triangleOpen{
+	transform: rotate(0deg);
+	transition-duration: 0.5s;
+}
+
+.header .form-group{
+	margin-bottom: 0;
+}
+
+#regInfo{
+	background-color: rgba(252, 3, 119, 0.09);
+}
+
+#infoLogin, 
+#infoPassword, 
+#infoRepeatPassword, 
+#infoEmail, 
+#infoCheck, 
+#loginInfo{
+	color: red;
+	display: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#message,
+#money{
+	padding-left: 5px;
+}
+
+.private-header a{
+	text-decoration: none;
+}
+
+.rules br{
+	padding: 20px;
+}

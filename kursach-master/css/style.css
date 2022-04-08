@@ -1,0 +1,92 @@
+#logo, #logo:hover{ text-decoration: none; color:#F70A0A; font-weight: bold; font-size: 40px; }
+
+#search{ border-top: 2px solid #696868; background: #DAD8D8; }
+
+#search a{ margin-top: 6px; text-decoration: none; color: #807D7D; }
+
+#search a:hover{ color: #595858; }
+
+#leftblock{ border: 1px solid lightgrey; }
+
+.line{ background: orange; border: none; height: 2px; }
+.line-news{ margin-bottom: 0; }
+.line-between-news{ margin-top: 0; }
+
+.dontborderradius{ border-radius: 0 !important; }
+
+.footer{ color: white; font-weight: bold; }
+
+.footer a{ color: lightgrey; }
+
+#invalidLoginPassword{ color: red; font-weight: bold; font-size: 20px; display: none; }
+
+.category ul a{ text-decoration: none; }
+.category ul{ font-size: 15px; }
+
+.category-head{ cursor: pointer; }
+
+.triangleClose{ transform: rotate(90deg); transition-duration: 0.5s; }
+
+.triangleOpen{ transform: rotate(0deg); transition-duration: 0.5s; }
+
+.header .form-group{ margin-bottom: 0; }
+
+#regInfo{ background-color: rgba(252, 3, 119, 0.09); }
+
+#infoLogin, #infoPassword, #infoRepeatPassword, #infoEmail, #infoCheck, #loginInfo{ color: red; display: none; font-size: 17px; font-weight: bold; }
+
+#message, #money{ padding-left: 5px; }
+
+.private-header a{ text-decoration: none; }
+
+.rules{ padding-top: 50px; padding-bottom: 50px; }
+
+.menu_help{	padding-left: 0px; }
+.menu_help li{	padding: 6px; list-style-type: none; border-bottom: 1px solid lightgrey; }
+.menu_help li:not(.main_li){ margin-left: 10px; font-size: 14px; }
+.menu_help a{ text-decoration: none; color: black; }
+.active_li{	background-color: orange; }
+.active_li a{ color: white; }
+
+.lot{ margin-right: 20px; padding: 5px; border: 1px solid lightgrey; border-radius: 0px; width: 133px; font-weight: bold; float: left; }
+
+.header-href, .header-href:hover{ text-decoration: none; color: black; }
+
+.news{ height: 123px;  margin-bottom: 20px; }
+.img_news{ float: left; margin-right: 10px; margin-top: 7px;}
+.date_news{ color: grey; font-style: italic; }
+
+.header-cabinet{ border-bottom: 2px solid orange; font-weight: bold; padding-bottom: 0px; }
+.hide{ display: none; }
+.show{ display: block; }
+
+.private-menu a{ cursor: pointer; }
+
+#errorLotName, #errorDescription, #errorStartPrice, #errorPrice, #errorImage, #errorLocation, #errorDelivery, #errorDateEnd, #errorSubcategory, #errorQuestion, #errorQuestion_head, #errorQuestionFile, #errorOldPassword, #errorNewPassword1, #errorNewPassword2{ font-weight: bold; color: red; }
+
+.img-fluid { max-width: 100%;  height: auto; max-height:100%; }
+
+#lot-mainblock .rightblock strong{ word-break: break-all; }
+
+#formBet{ background: lightblue; padding-bottom: 0; padding: 10px; }
+ 
+/*.bets-content{ width: 500px; margin-top: 50px;}*/
+
+.family-comments:last-child{ border: 0px; }
+
+.dialog{ cursor: pointer; }
+.dialog:hover{ background: lightgrey; }
+
+.list-group-bets .list-group-item:hover, .list-group-lots .list-group-item:hover{ background: #17a2b8; color: white; }
+.menu_help li:hover{ cursor: pointer; }
+
+/*#msg-content{ overflow: scroll; height: 600px;}*/
+
+.activebets_header, .activelots_header, .winbets_header{ border-top: 3px solid lightgray; border-bottom: 1px solid lightgray; margin-left: 0px; margin-right: 0px; margin-bottom: 15px; background: #e3e3e3; }
+.activelot:hover, .activebet:hover, .soldlot_name:hover, .soldlot_user:hover, .unsoldlot:hover, .winbet_lotname:hover, .winbet_user:hover{ background: lightgray; cursor: pointer; }
+
+.list-group-question div:hover{ cursor: pointer; background: #17a2b8; color: white; }
+
+.table-question tbody tr:hover{ background: #17a2b8; cursor: pointer; }
+
+.profile_user{ box-shadow: 0 0 10px rgba(0,0,0,0.5); margin: 50px; }
